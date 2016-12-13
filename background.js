@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var chance = Math.floor(Math.random());
+	var chance = Math.floor(Math.random() * 2);
 	if(chance == 1) {
 		cenafy();
 	}
